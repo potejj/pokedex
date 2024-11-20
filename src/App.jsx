@@ -1,7 +1,10 @@
+
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useParams } from 'react-router-dom';
 import axios from 'axios';
 import './App.css';
+
+
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
@@ -115,4 +118,3 @@ const PokemonDetails = () => {
 };
 
 export default App;
-
