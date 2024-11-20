@@ -11,9 +11,6 @@ const App = () => {
     <Router>
       <div className="pokedex-container">
       <p className="lawsuitendo">lawsuitendo</p>
-      <div className="pokedex-controls">
-        <input  type="text" placeholder="Search Pokémon" className="search-bar" value={searchTerm} onChange={handleSearchChange}/> 
-      </div>
         <div className="pokedex-screen">
           <Routes>
             <Route path="/" element={<Pokedex />} />
